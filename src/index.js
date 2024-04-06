@@ -11,7 +11,7 @@ const currentTime = document.getElementById("current-time");
 const progress = document.getElementById("progress");
 
 const songs = new LinkedList();
-songs.push(new Song("Hasta Que Dejes de Respirar", "audio/Caifanes - Hasta Que Dejes de Respirar.mp3", "images/El nervio del volcan.jpeg"));
+songs.push(new Song("Caifanes - Hasta Que Dejes de Respirar", "audio/Caifanes - Hasta Que Dejes de Respirar.mp3", "images/El nervio del volcan.jpeg"));
 songs.push(new Song("Ghost - Darkness At The Heart Of My Love", "audio/Ghost - Darkness At The Heart Of My Love.mp3", "images/Impera.jpg"));
 songs.push(new Song("José José - Él (Him)", "audio/José José - Él (Him).mp3", "images/Amor amor.jpeg"));
 songs.push(new Song("Lady Gaga - Government Hooker", "audio/Lady Gaga - Government Hooker.mp3", "images/Born this way.jpeg"));
