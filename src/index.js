@@ -23,6 +23,7 @@ songs.push(new Song("Taylor Swift - New Romantics (Taylor's Version)", "audio/Ta
 songs.push(new Song("Tears For Fears - Everybody Wants To Rule The World", "audio/Tears For Fears - Everybody Wants To Rule The World.mp3", "images/Tears for fears.jpeg"));
 
 let currentSongNode = songs.head;
+uploadAudio(currentSongNode.data);
 
 function change(direction) {
     if (direction === -1 && currentSongNode.previous !== null) {
